@@ -39,6 +39,12 @@ Simple links to external websites work by simply pasting the url. However, if yo
 
 ...and you'll get [Openal](http://en.wikipedia.org/wiki/OpenAL).
 
+## Languages of the wiki
+
+The LÖVE wiki is already partially translated into a handful of languages, which are listed in http://www.love2d.org/wiki/Help:i18n. Most pages have the i18n in the bottom, which automatically dislays links to versions of that page in all available languages. If a language is not listed, then you must ask an administrator to add it.
+
+English pages have simple names, such as *love.audio*, while translated versions are named, for example, *love.audio (LANGUAGE)*, where LANGUAGE is the name of the language as shown in the *Localized* column of the list referred to above. That variation in the internal page name is reflected in the page's address, for example, https://www.love2d.org/wiki/love.audio and https://www.love2d.org/wiki/love.audio_(Português) (notice how an underline replaces the space).
+
 ## Variable an funcion names in Lua
 
 The use of non-ASCII characters in Lua code is sometimes possible, but it may or may not work depending on the user's system, so it's not recommended, and we must keep that in mind when translating variable and function names. Our concern is only with user defined functions, not the ones native to LÖVE/Lua (those should not be changed)
@@ -75,4 +81,14 @@ Sections of the wiki will go through a first translation that probably won't nee
 
 ## Setup
 
+### The templates
 
+The wiki has some templates that show some sort of warning in English, called oldin, newin and newobjectnotice. It's necessary to create an alternate version of those templates for each language. It's not strictly necessary to translate the documentation of the template, but it's nice.
+
+The newobjectnotice template is pretty straightforward. You should got to the following address: https://www.love2d.org/wiki/Template:newobjectnotice_(LANGUAGE), but replacing LANGUAGE with the appropriate language name (see *Languages of the wiki*). The wiki will probably tell you that that page doesn't exist, so you need to create it. You should copy the content from https://www.love2d.org/wiki/Template:newobjectnotice, paste it into the new page and translate the part that says *This function can be slow if it is called repeatedly, such as from [[love.update]] or [[love.draw]]. If you need to use a specific resource often, create it once and store it somewhere it can be reused!*. Don't touch anything else. Notice that there are links. If you've read *Wiki links* then you'll know how to deal with them.
+
+Now, the oldin and newin templates have complications. They show not one, but two texts. The first text is much like the one in newobjectnotice. You can go ahead and create a translated version of them like you did to newobjectnotice. The text to be translated from https://www.love2d.org/wiki/Template:oldin is *Removed in LÖVE {{{1}}}*, and in https://www.love2d.org/wiki/Template:newin it's *Available since LÖVE {{{1}}}*. When the template is used, *{{{1}}}* will be replaced by a LÖVE version number, such as 0.9.1.
+
+It's the second part of newin and oldin that's complicated. When used, if a *text* parameter is defined, then that text is displayed. Otherwise, it generates text based on other parameters. The text generation is already complex for English, and it could be hell to recreate for other languages. This translation workflow takes the much simpler route of defining the *text* parameter in **every** occurrence of those templates. The translator won't have to worry about doing that manually, it'll all be automated.
+
+If you wish to translate the doc of each template, just add */doc* to the template's address. But again, this is not necessary.
