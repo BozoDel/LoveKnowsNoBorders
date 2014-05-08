@@ -81,6 +81,10 @@ Sections of the wiki will go through a first translation that probably won't nee
 
 ## Setup
 
+### The repository
+
+**I have to come back to this when the Portuguese repo is done, okay? okay!**
+
 ### The templates
 
 The wiki has some templates that show some sort of warning in English, called oldin, newin and newobjectnotice. It's necessary to create an alternate version of those templates for each language. It's not strictly necessary to translate the documentation of the template, but it's nice.
@@ -91,4 +95,4 @@ Now, the oldin and newin templates have complications. They show not one, but tw
 
 It's the second part of newin and oldin that's complicated. When used, if a *text* parameter is defined, then that text is displayed. Otherwise, it generates text based on other parameters. The text generation is already complex for English, and it could be hell to recreate for other languages. This translation workflow takes the much simpler route of defining the *text* parameter in **every** occurrence of those templates. The translator won't have to worry about doing that manually, it'll all be automated.
 
-If you wish to translate the doc of each template, just add */doc* to the template's address. But again, this is not necessary.
+If you wish to translate the doc of each template, just add */doc* to the template's address. But again, this is not necessary
