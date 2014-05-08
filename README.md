@@ -81,6 +81,10 @@ Sections of the wiki will go through a first translation that probably won't nee
 
 ## Setup
 
+### Search & replace language setting
+
+This projects contains a filter (okf_regex@lovewiki.rfpm), a set of search & replace steps (searchandreplace.utf8, which we'll refer to as S&R) and a Lua script (stripper.lua). Open the S&R in a text editor, you'll see that there are several occurrences of *LANGUAGE*. You must replace those occurrences with the name of the languague you're translating to (see *Languages of the wiki*). 
+
 ### The repository
 
 **I have to come back to this when the Portuguese repo is done, okay? okay!**
@@ -95,4 +99,4 @@ Now, the oldin and newin templates have complications. They show not one, but tw
 
 It's the second part of newin and oldin that's complicated. When used, if a *text* parameter is defined, then that text is displayed. Otherwise, it generates text based on other parameters. The text generation is already complex for English, and it could be hell to recreate for other languages. This translation workflow takes the much simpler route of defining the *text* parameter in **every** occurrence of those templates. The translator won't have to worry about doing that manually, it'll all be automated.
 
-If you wish to translate the doc of each template, just add */doc* to the template's address. But again, this is not necessary
+If you wish to translate the doc of each template, just add */doc* to the template's address. But again, this is not necessary.
