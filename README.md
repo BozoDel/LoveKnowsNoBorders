@@ -45,6 +45,24 @@ The LÖVE wiki is already partially translated into a handful of languages, whi
 
 English pages have simple names, such as *love.audio*, while translated versions are named, for example, *love.audio (LANGUAGE)*, where LANGUAGE is the name of the language as shown in the *Localized* column of the list referred to above. That variation in the internal page name is reflected in the page's address, for example, https://www.love2d.org/wiki/love.audio and https://www.love2d.org/wiki/love.audio_(Português) (notice how an underline replaces the space).
 
+## Sections of the wiki
+
+**WARNING: this part is still a draft**
+
+One should not try to translate the whole wiki all at once. Take into consideration that it's the kind of work done by a handful volunteer translators, in their spare time, with the possibility of the original English wiki being updated at any time. All these factors can create confusion, so it's best to divide the wiki in small sections to keep things organized. There are of course other measures to counter those problems, but they'll be mentioned further on.
+
+Only one translator may be working on a single section at once. Here is a draft of how the wiki may be divided.
+
+* Each module with its functions
+
+* Each LÖVE object type with its functions
+
+* All Lua object types
+
+* All enums
+
+* Main/general pages
+
 ## Variable an funcion names in Lua
 
 The use of non-ASCII characters in Lua code is sometimes possible, but it may or may not work depending on the user's system, so it's not recommended, and we must keep that in mind when translating variable and function names. Our concern is only with user defined functions, not the ones native to LÖVE/Lua (those should not be changed)
