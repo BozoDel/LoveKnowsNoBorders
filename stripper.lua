@@ -1,4 +1,5 @@
 -- checks if there's a first argument, the file
+
 if arg[1] then
 	-- opens the file given as first argument in reading mode
 	input = io.open (arg[1], "r")
