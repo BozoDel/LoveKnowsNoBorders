@@ -215,4 +215,14 @@ You might feel tempted to save without previewing, as it could save you a few cl
 
 Some of the original pages might have been updated while you were translating them, so you should download them again and use the stripper script to check for updates, using the day you finished uploading pages as the date. If you find changes, you should make a new translation kit from the new exported file, using the translation memory from the first one in automatic mode, so you'll only need to deal with untranslated segments. Upload and review the changed pages.
 
-### Uploading glossary and translation memories
+### Merging glossary and translation memories
+
+Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators.
+
+The glossary is a simple text file, with elements separated by tabs and newlines. Depending on your CAT tool (even on OmegaT version), it might have created a complete glossary with old and new entries. But maybe it has created a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one.
+
+**need to explain supertmxmerge**
+
+Submitting the updated glossary and translation memories using git requires some technical knowledge that programmers (who are likely to be our translators) often have. So if you already know how to submit a pull request, you can skip this explanation.
+
+But if you don't know how to use git, it's ok, you don't have to, there's a simple way that will work for us. You should have a GitHub account (assuming the language-specific repo was setup on GitHub). Go to the repository and click *Fork* (upper-right corner). That should create a copy of the repository under your account, which you'll be redirected to. For each file you need to update, click on its name, click *Edit*, erase the content and paste the content from the corresponding file on your computer and click *Commit changes*. Once you updated all the files, click the *Pull Requests* icon, on the right, and then click on *New pull request*. A new page will show all the changes that were made, you should review them and, if they're ok, click *Create Pull Request*. You have just sent the files, so that the maintainer of the original repository can review and accept them. Congratulations!

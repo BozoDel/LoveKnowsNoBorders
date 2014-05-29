@@ -1,0 +1,11 @@
+Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators.
+
+The glossary is a simple text file, with elements separated by tabs and newlines. Depending on your CAT tool (even on OmegaT version), it might have created a complete glossary with old and new entries. But maybe it has created a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one.
+
+**I still have to find out how to merge translation memories**
+
+Windows users may try [Olifant](http://okapi.sourceforge.net/Release/Olifant/Help/index.html), and all OSs can use a trial version of the [Heartsome TMX Editor](http://okapi.sourceforge.net/Release/Olifant/Help/index.html). Just so you know, a cross-platform version of Olifant is on the works, and Heartsome should be open-sourced soon (I haven't really tried any of those yet - this section will be improved later on).
+
+Submitting the updated glossary and translation memories using git requires some technical knowledge that programmers (who are likely to be our translators) often have. So if you already know how to submit a pull request, you can skip this explanation.
+
+But if you don't know how to use git, it's ok, you don't have to, there's a simple way that will work for us. You should have a GitHub account (assuming the language-specific repo was setup on GitHub). Go to the repository and click *Fork* (upper-right corner). That should create a copy of the repository under your account, which you'll be redirected to. For each file you need to update, click on its name, click *Edit*, erase the content and paste the content from the corresponding file on your computer and click *Commit changes*. Once you updated all the files, click the *Pull Requests* icon, on the right, and then click on *New pull request*. A new page will show all the changes that were made, you should review them and, if they're ok, click *Create Pull Request*. You have just sent the files, so that the maintainer of the original repository can review and accept them. Congratulations!
