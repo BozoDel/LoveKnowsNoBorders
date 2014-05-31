@@ -7,9 +7,15 @@ A translation workflow and a set of filters for the translation of the LÖVE wik
 
 MediaWiki and Lua have its peculiarities. While this project tries to get them all out of the way of the translator, sometimes it's not possible. The cases described below require special attention.
 
-## System requirements
+## Software needed
 
-**TO DO**
+Many of the tools you'll need require an up-to-date Java Runtime Environment. The Oracle implementation is recommended over open ones. You'll need [Okapi Rainbow](http://www.opentag.com/okapi/wiki/index.php?title=Rainbow) for extracting the text for translation, and [SuperTMXMerge](https://github.com/amake/SuperTMXMerge) for merging translation memories. Minor tasks may require a simple text editor, but not notepad (all the cool Windows kids use [Notepad++](http://notepad-plus-plus.org/)). The whole purpose of this workflow is to be able to use a CAT (Computer Assisted Translation) tool, so you'll need one. Any one that can deal with open standards should do, but see our recomendation below.
+
+## CAT tool recommendation
+
+This explanation will assume that you're using [OmegaT](http://omegat.org/), which is free and open source (and very good and growing in popularity). But you should be able to use other CAT tools, making a few or no changes.
+
+(**EXPAND THIS**)
 
 ## Wiki links
 
@@ -88,12 +94,6 @@ However, there are other limitations imposed by LÖVE and Lua (and are common to
 * Some page names are composed of an object name and a function name, for example, *Source:getPitch*. *Source* here can be replaced by any variable of the source type, so it can be translated as an isolated object/type would. But *getPitch* is a function and can't be translated.
 
 * Constants are more complicated. The Lua function *type* returns the type of a given variable. If that variable is a number, the function will return "number" as a string of text. In most parts of the documentation, we would translate *number* as *número* (in Portuguese), but it's not possible if it's a constant. The function *type* will never return "número", and assuming otherwise can induce errors. It may not seem such a huge problem for functions that *output* constants, but it definitely is for functions that take constants as *input*. Therefore words used as constants can't be translated when used as such (a single word in a string of text), but can be translated in descriptions and explanations.
-
-## CAT tool recommendation
-
-This explanation will assume that you're using [OmegaT](http://omegat.org/), which is free and open source (and very good and growing in popularity). But you should be able to use other CAT tools, making a few or no changes.
-
-(**EXPAND THIS**)
 
 # How to
 
@@ -219,7 +219,7 @@ Some of the original pages might have been updated while you were translating th
 
 Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators.
 
-The glossary is a simple text file, with elements separated by tabs and newlines. Depending on your CAT tool (even on OmegaT version), it might have created a complete glossary with old and new entries. But maybe it has created a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one.
+The glossary is a simple text file, with elements separated by tabs and newlines. Depending on your CAT tool (even on OmegaT version), it might have created a complete glossary with old and new entries. But maybe it has created a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one (with a decent text editor, not notepad).
 
 **need to explain supertmxmerge**
 
