@@ -13,7 +13,7 @@ Many of the tools you'll need require an up-to-date Java Runtime Environment. Th
 
 ## CAT tool recommendation
 
-This explanation will assume that you're using [OmegaT](http://omegat.org/), which is free and open source (and very good and growing in popularity). But you should be able to use other CAT tools, making a few or no changes. When you start OmegaT, it shows a *Learn to use OmegaT in 5 minutes!* screen that should cover almost everything you need to know.
+This explanation will assume that you're using [OmegaT](http://omegat.org/), which is free and open source (and very good and growing in popularity). But you should be able to use other CAT tools, making a few or no changes. When you start OmegaT, it shows a *Learn to use OmegaT in 5 minutes!* screen that should cover almost everything you need to know.g
 
 In the OmegaT download page, there's two main versions: Standard and Latest. I highly recommend you to download the Latest, as it's very stable and has many features that the Standard doesn't - one of them is showing useful hints in the comments pane (since 3.0.5).
 
@@ -22,6 +22,10 @@ By default, OmegaT only shows the main, the glossary and the fuzzy matches panes
 In *Options > Editing Behavior*, it's best to turn on the following options: *Insert the best fuzzy match*, *Allow translation to be equal to source*, *Go To Next Untranslated Segment stops when there is at least one alternative translation* and *Validate tags when leaving a segment*.
 
 The Okapi filter already does a good job segmenting most text, but leaves snippets of code whole. So it's best to disable *Sentence-level Segmenting* in most cases. You have to configure this in *Project > Properties* every time you start a new OmegaT project.
+
+## Glossary entries
+
+There'll be many terms you'll want to add to the glossary, so that they are translated consistently by yourself and other translators. In OmegaT, the shortcut to create a glossary is Ctrl+Shift+G, which opens a panel containing three boxes, one for the source language term, one for the target language, and the third, optional, for clarifications (which are always welcome). If a single term has to be translated differently depending on context, make two different entries, with clarifications. Remember that the glossary is a simple tab-delimited text file, so you can edit it manually if necessary. And it's always a good idea to write the clarifications in English, so that they can serve as guidance for translators of other languages.
 
 ## Wiki links
 
