@@ -9,7 +9,7 @@ MediaWiki and Lua have its peculiarities. While this project tries to get them a
 
 ## Software needed
 
-Many of the tools you'll need require an up-to-date Java Runtime Environment. The Oracle implementation is recommended over open ones. You'll need [Okapi Rainbow](http://www.opentag.com/okapi/wiki/index.php?title=Rainbow) for extracting the text for translation, and [SuperTMXMerge](https://github.com/amake/SuperTMXMerge) for merging translation memories. Minor tasks may require a simple text editor, but not notepad (all the cool Windows kids use [Notepad++](http://notepad-plus-plus.org/)). The whole purpose of this workflow is to be able to use a CAT (Computer Assisted Translation) tool, so you'll need one. Any one that can deal with open standards should do, but see our recomendation below.
+Many of the tools you'll need require an up-to-date Java Runtime Environment. The Oracle implementation is recommended over open ones. You'll need [Okapi Rainbow](http://www.opentag.com/okapi/wiki/index.php?title=Rainbow) for extracting the text for translation, and [SuperTMXMerge](https://github.com/amake/SuperTMXMerge/releases) for merging translation memories. Minor tasks may require a simple text editor, but not notepad (all the cool Windows kids use [Notepad++](http://notepad-plus-plus.org/)). The whole purpose of this workflow is to be able to use a CAT (Computer Assisted Translation) tool, so you'll need one. Any one that can deal with open standards should do, but see our recomendation below.
 
 ## CAT tool recommendation
 
@@ -229,7 +229,7 @@ Some of the original pages might have been updated while you were translating th
 
 Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators.
 
-The glossary is a simple text file, with elements separated by tabs and newlines. Depending on your CAT tool (even on OmegaT version), it might have created a complete glossary with old and new entries. But maybe it has created a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one (with a decent text editor, not notepad).
+The glossary is a simple text file, with elements separated by tabs and newlines. If you're using the recommended latest version of OmegaT, the *glossary.txt* will already have the entries you added. Older versions of OmegaT or other CAT tools might create a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one (with a decent text editor, not notepad).
 
 **need to explain supertmxmerge**
 
