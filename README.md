@@ -227,11 +227,11 @@ Some of the original pages might have been updated while you were translating th
 
 ### Merging glossary and translation memories
 
-Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators.
+Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators. You probably have already downloaded them, but there's a chance that they have been updated in the meantime, so download them again.
 
 The glossary is a simple text file, with elements separated by tabs and newlines. If you're using the recommended latest version of OmegaT, the *glossary.txt* will already have the entries you added. Older versions of OmegaT or other CAT tools might create a separate glossary - in that case, all you have to do is copy the text of the new glossary and paste it in the bottom of the old one (with a decent text editor, not notepad).
 
-**need to explain supertmxmerge**
+The translation memories need to be combined using SuperTMXMerge. First of all, pay attention that level 1 TMXs have to be merged with level 1, level 2 with level 2, and OmegaT-specific with OmegaT-specific. You start the program by executing *SuperTMXMerge.sh* (on Linux - does it work on OSX?) or *SuperTMXMerge.bat* (on Windows). Click *Combine*, add both files and click *OK*. If there are any conflicts (that is, a source segment with two different translations), a new screen will pop up and you'll have to choose the most appropriate translation for each conflict, and the click *Done*. Name the new TMX file, choose an output folder and click *OK*.
 
 Submitting the updated glossary and translation memories using git requires some technical knowledge that programmers (who are likely to be our translators) often have. So if you already know how to submit a pull request, you can skip this explanation.
 
