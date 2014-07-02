@@ -199,7 +199,7 @@ Still using Okapi Rainbow:
 
 * Click *Utilities* and *Translation Kit Creation*. Under *Package Format*, choose the appropriate one (OmegaT project, if you're using that CAT tool). Under *Output Location*, choose a folder and a name for the package. Click *Execute* and wait a few seconds.
 
-This creates a translation kit that can be opened with CAT tools. The hints mentioned in [CAT tool recommendation](https://github.com/BozoDel/LoveKnowsNoBorders#cat-tool-recommendation) are set as *notes* in the translation kit and should be displayed by most CAT tools - in OmegaT, it's shown in the Comments pane. The hints are little pieces of the markup, so when in doubt about what it means, just check the source page, and you'll get used to it in no time.
+This creates a translation kit that can be opened with CAT tools. The hints mentioned in [CAT tool recommendation](https://github.com/BozoDel/LoveKnowsNoBorders#cat-tool-recommendation) are set as *notes* in the translation kit and should be displayed by most CAT tools - in OmegaT, it's shown in the Comments pane. In this case, little pieces of the wiki formatting are used as hints, so when in doubt about what it means, just check the source page, and you'll get used to it in no time.
 
 ### Translating
 
