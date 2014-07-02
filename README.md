@@ -179,7 +179,7 @@ Using Okapi's Search & Replace we can strip away all the XML from the pages (mak
 
 * In both encoding fields, type *utf8* and click *OK*
 
-* In the top panel, click *Utilities* and then *Search and Replace *__without__ Filter*
+* In the top panel, click *Utilities* and then *Search and Replace __without__ Filter*
 
 * Click *Import*, find the searchandreplace.utf8 file and click *OK*
 
