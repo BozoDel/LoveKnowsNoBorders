@@ -17,9 +17,9 @@ Many of the tools you'll need require an up-to-date Java Runtime Environment. Th
 
 This explanation will assume that you're using [OmegaT](http://omegat.org/), which is free and open source (and very good and growing in popularity). But you should be able to use other CAT tools, making a few or no changes. When you start OmegaT, it shows a *Learn to use OmegaT in 5 minutes!* screen that should cover almost everything you need to know.
 
-In the OmegaT download page, there's two main versions: Standard and Latest. I highly recommend you to download the Latest, as it's very stable and has many features that the Standard doesn't - one of them is showing useful hints in the comments pane (since 3.0.5). (**CHANGE THIS**)
+In the OmegaT download page, there's two main versions: Standard and Latest. I highly recommend you to download the Latest, as it's very stable and has many features that the Standard doesn't - one of them is showing useful hints in the comments pane (since 3.1.0).
 
-By default, OmegaT only shows the main, the glossary and the fuzzy matches panes. You'll probably want to enable the comments pane too (if you're using 3.0.5 or later version). Just click "Comments", the undock icon, and drag it wherever you like.
+By default, OmegaT only shows the main, the glossary and the fuzzy matches panes. You'll probably want to enable the comments pane too (if you're using 3.1.0 or later version). Just click "Comments", the undock icon, and drag it wherever you like.
 
 In *Options > Editing Behavior*, it's best to turn on the following options: *Insert the best fuzzy match*, *Allow translation to be equal to source*, *Go To Next Untranslated Segment stops when there is at least one alternative translation* and *Validate tags when leaving a segment*.
 
