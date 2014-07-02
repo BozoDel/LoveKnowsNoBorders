@@ -231,8 +231,6 @@ Some of the original pages might have been updated while you were translating th
 
 Notice that the stripper script has a little bit of leeway: it will notice if a change has been made to the source page in the same day you uploaded the translation, regardless of the time of the day. (**note: should add more leeway because time zones**)
 
-CONTINUAR DAQUI
-
 ### Merging glossary and translation memories
 
 Now that the work is done, you should merge the glossary and the translation memories you created with the ones in the repository, so that they can be used by other translators. You probably have already downloaded them, but there's a chance that they were updated in the meantime, so download them again.
