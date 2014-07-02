@@ -129,7 +129,7 @@ It should have a status page, containing a list of the sections of the wiki, and
 
 For our purposes, a section or page is considered not translated if it hasn't been translated through this workflow, that is, if there's a previous "manual" translation, it's still considered not translated. Setting the section as being translated is the first thing a translator does, even before downloading the pages. It's only considered translated when the translator has finished uploading all pages and checked for updates that might have been made in the meantime.
 
-The LÖVE wiki is under a [GNU Free Documentation licens v1.3](https://gnu.org/copyleft/fdl.html), so, as inappropriate as it may seem, the translation memories also have to be under that license. [Here](https://github.com/BozoDel/LoveKnowsNoBorders-PT/blob/master/licenses.md)'s an example of how to show the license.
+The LÖVE wiki is under a [GNU Free Documentation License v1.3](https://gnu.org/copyleft/fdl.html), so, as inappropriate as it may seem, the translation memories also have to be under that license. [Here](https://github.com/BozoDel/LoveKnowsNoBorders-PT/blob/master/licenses.md)'s an example of how to show the license.
 
 ### The templates
 
