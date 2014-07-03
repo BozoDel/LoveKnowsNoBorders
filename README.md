@@ -197,7 +197,7 @@ Still using Okapi Rainbow:
 
 * Add the file created in the previous step to the List
 
-* Edit its properties - again, set encodings to utf8, but now you must also specify the filter. Click *More*, a new window will open up. Under *Custom Configurations*, specify the folder where okf_regex@lovewiki.fprm filter is. It will now show up in the bottom of the big filter list. Click on it an then click *Select* and *OK*.
+* Edit its properties - again, set encodings to utf8, but now you must also specify the filter. Click *More*, a new window will open up. Under *Custom Configurations*, specify the folder where `okf_regex@lovewiki.fprm` is. It will now show up in the big filter list. Click on it an then click *Select* and *OK*.
 
 * Click *Utilities* and *Translation Kit Creation*. Under *Package Format*, choose the appropriate one (OmegaT project, if you're using that CAT tool). Under *Output Location*, choose a folder and a name for the package. Click *Execute* and wait a few seconds.
 
