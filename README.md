@@ -246,3 +246,11 @@ Submitting the updated glossary and translation memories using git requires some
 If you want to learn how to git the right way, [this tutorial](https://try.github.io) is pretty quick and easy.
 
 If you don't want to do it in the best way, there's also a sort-of-wrong way that wokrs. You should have a GitHub account (assuming the language-specific repo was setup on GitHub). Go to the repository and click *Fork* (upper-right corner). That should create a copy of the repository under your account, which you'll be redirected to. For each file you need to update, click on its name, click *Edit*, erase the content and paste the content from the corresponding file on your computer and click *Commit changes*. Once you updated all the files, click the *Pull Requests* icon, on the right, and then click on *New pull request*. A new page will show all the changes that were made, you should review them and, if they're ok, click *Create Pull Request*. You have just sent the files, so that the maintainer of the original repository can review and accept them. Congratulations!
+
+# Contribute
+
+If you want to edit the filter, the best option is to do it using Okapi Rainbow, though it's possible to edit it with a text editor. You can open the filter by clicking *Tools > Filter Configurations*, selecting the right folder in *Custom Configurations*, selecting the filter and clicking *Edit*. It's a [regex filter](http://www.opentag.com/okapi/wiki/index.php?title=Regex_Filter).
+
+The S&R (documented [here](http://www.opentag.com/okapi/wiki/index.php?title=Search_and_Replace_Step)) can be opened with *Utilities > Search and Replace without Filter > Import*, but unlike the filter, it's probably best not to edit it with Rainbow, since the comments for each rule can only be seen inside a text editor, and they're lost if you export it with Rainbow.
+
+In both cases, you need to be familiar with Java regex.
