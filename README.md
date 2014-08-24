@@ -133,9 +133,11 @@ The LÖVE wiki is under a [GNU Free Documentation License v1.3](https://gnu.org/
 
 ### The templates
 
-The wiki has some templates that show some sort of warning in English, called oldin, newin and newobjectnotice. It's necessary to create an alternate version of those templates for each language. It's not strictly necessary to translate the documentation of the template, but it's nice.
+The wiki has some templates that show some sort of warning in English, called oldin, newin, newobjectnotice and New_feature. It's necessary to create an alternate version of those templates for each language. It's not strictly necessary to translate the documentation of the template, but it's nice.
 
 The newobjectnotice template is pretty straightforward. You should got to the following address: https://www.love2d.org/wiki/Template:newobjectnotice_(LANGUAGE), but replacing LANGUAGE with the appropriate language name (see [Languages of the wiki](https://github.com/BozoDel/LoveKnowsNoBorders#languages-of-the-wiki)). The wiki will probably tell you that that page doesn't exist, so you need to create it. You should copy the content from https://www.love2d.org/wiki/Template:newobjectnotice, paste it into the new page and translate the part that says *This function can be slow if it is called repeatedly, such as from [[love.update]] or [[love.draw]]. If you need to use a specific resource often, create it once and store it somewhere it can be reused!*. Don't touch anything else. Notice that there are links. If you've read [Wiki links](https://github.com/BozoDel/LoveKnowsNoBorders#wiki-links) then you'll know how to deal with them.
+
+New_feature is similarly simple. The address now is https://www.love2d.org/wiki/Template:New_feature_(LANGUAGE), replacing LANGUAGE, and the part to be translated is *Available since LÖVE*. The documentation is the part between *noinclude* tags.
 
 Now, the oldin and newin templates have complications. They show not one, but two texts. The first text is much like the one in newobjectnotice. You can go ahead and create a translated version of them like you did to newobjectnotice. The text to be translated from https://www.love2d.org/wiki/Template:oldin is *Removed in LÖVE {{{1}}}*, and in https://www.love2d.org/wiki/Template:newin it's *Available since LÖVE {{{1}}}*. When the template is used, *{{{1}}}* will be replaced by a LÖVE version number, such as 0.9.1.
 
