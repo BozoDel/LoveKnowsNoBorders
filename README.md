@@ -231,7 +231,7 @@ You might feel tempted to save without previewing, as it could save you a few cl
 
 ### Checking for updates
 
-Some of the original pages might have been updated while you were translating them, so you should download them again and use the stripper script to check for updates, using the day you *downloaded* the pages as the date. If you find changes, you should make a new translation kit from the new exported file, using the translation memory from the first one in automatic mode, so you'll only need to deal with untranslated segments. Upload and review the changed pages.
+Some of the original pages might have been updated while you were translating them, so you should download them again and use the stripper script to check for updates, using the day you *downloaded* the pages (the first time, in the beggining of the translation of that section) as the date. If you find changes, you should make a new translation kit from the new exported file, using the translation memory from the first one in automatic mode, so you'll only need to deal with untranslated segments. Upload and review the changed pages.
 
 Notice that the stripper script has a little bit of leeway: it will notice if a change has been made to a source page in the same day you downloaded it, regardless of the time of the day.
 
