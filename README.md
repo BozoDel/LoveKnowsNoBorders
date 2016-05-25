@@ -1,3 +1,5 @@
+*Ok, so this has been dead for a long time. I made quite a few things that I would have done differently now, but it doesn't matter, since nobody ever cared.*
+
 LoveKnowsNoBorders
 ==================
 
